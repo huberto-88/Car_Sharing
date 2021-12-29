@@ -1,0 +1,433 @@
+2021-12-28 14:57:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO COMPANY VALUES(sdfa); [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.dao.CompanyManagement.createCompany(CompanyManagement.java:45)
+	at carsharing.App.createCompany(App.java:67)
+	at carsharing.App.managerMenu(App.java:57)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 15:01:07 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO COMPANY VALUES(sadf); [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.dao.CompanyManagement.createCompany(CompanyManagement.java:45)
+	at carsharing.App.createCompany(App.java:67)
+	at carsharing.App.managerMenu(App.java:57)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 15:01:34 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO COMPANY VALUES(hub); [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.dao.CompanyManagement.createCompany(CompanyManagement.java:45)
+	at carsharing.App.createCompany(App.java:67)
+	at carsharing.App.managerMenu(App.java:57)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 15:02:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "HUB" not found; SQL statement:
+INSERT INTO COMPANY VALUES(hub,4); [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.command.dml.Insert.prepare(Insert.java:327)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.dao.CompanyManagement.createCompany(CompanyManagement.java:45)
+	at carsharing.App.createCompany(App.java:67)
+	at carsharing.App.managerMenu(App.java:57)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 15:03:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO COMPANY (name) VALUES(hub,4); [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.dao.CompanyManagement.createCompany(CompanyManagement.java:45)
+	at carsharing.App.createCompany(App.java:67)
+	at carsharing.App.managerMenu(App.java:57)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 15:04:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO COMPANY (name) VALUES('hub',4); [21002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.dml.Insert.prepare(Insert.java:319)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.dao.CompanyManagement.createCompany(CompanyManagement.java:45)
+	at carsharing.App.createCompany(App.java:67)
+	at carsharing.App.managerMenu(App.java:57)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 15:04:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'hub' (COMPANY: ""ID"" INTEGER DEFAULT NEXT VALUE FOR ""PUBLIC"".""SYSTEM_SEQUENCE_2442FF87_AF26_4711_ABE2_76341328B7E2"" NOT NULL NULL_TO_DEFAULT SEQUENCE ""PUBLIC"".""SYSTEM_SEQUENCE_2442FF87_AF26_4711_ABE2_76341328B7E2"")"; SQL statement:
+INSERT INTO COMPANY (id, name) VALUES('hub',4); [22018-200]
+2021-12-28 15:06:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "HUB" not found; SQL statement:
+INSERT INTO COMPANY (NAME) VALUES(hub); [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.command.dml.Insert.prepare(Insert.java:327)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.dao.CompanyManagement.createCompany(CompanyManagement.java:45)
+	at carsharing.App.createCompany(App.java:67)
+	at carsharing.App.managerMenu(App.java:57)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 15:50:16 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP DATABASE[*] COMPANY;"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+DROP DATABASE COMPANY; [42001-200]
+2021-12-28 15:52:09 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+DELETE FROM COMPANY; [90002-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.command.Prepared.query(Prepared.java:231)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:285)
+	at org.h2.command.Command.executeQuery(Command.java:195)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at carsharing.dao.CompanyManagement.dropDatabase(CompanyManagement.java:94)
+	at carsharing.App.dropDatabase(App.java:95)
+	at carsharing.App.managerMenu(App.java:64)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 15:53:46 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "HUB" not found; SQL statement:
+DELETE FROM COMPANY WHERE name=hub; [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:191)
+	at org.h2.command.dml.Delete.prepare(Delete.java:184)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.dao.CompanyManagement.deleteCompany(CompanyManagement.java:79)
+	at carsharing.App.deleteCompany(App.java:91)
+	at carsharing.App.managerMenu(App.java:61)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 19:08:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
+2021-12-28 19:09:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
+2021-12-28 19:09:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
+2021-12-28 21:52:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR(ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER FOREIGN[*] KEY NOT NULL)"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS car(id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER FOREIGN KEY NOT NULL) [42001-200]
+2021-12-28 21:55:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR(ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER FOREIGN[*] KEY NOT NULL);"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS car(id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER FOREIGN KEY NOT NULL); [42001-200]
+2021-12-28 21:56:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER FOREIGN[*] KEY NOT NULL);"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER FOREIGN KEY NOT NULL); [42001-200]
+2021-12-28 22:00:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER  NOT NULL, CONSTRAINT FK_COMPANYID FOREIGN KEY (ID)REFERENCES COMPANY(ID);[*]"; expected "INDEX, ON, NOT, DEFERRABLE, NOCHECK, CHECK, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER  NOT NULL, CONSTRAINT fk_companyId FOREIGN KEY (id)REFERENCES COMPANY(id); [42001-200]
+2021-12-28 22:01:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) NOT NULL UNIQUE, COMPANY_ID INTEGER  NOT NULL, CONSTRAINT FK_COMPANYID FOREIGN KEY (ID)REFERENCES COMPANY(ID);[*]"; expected "INDEX, ON, NOT, DEFERRABLE, NOCHECK, CHECK, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) NOT NULL UNIQUE, company_id INTEGER  NOT NULL, CONSTRAINT fk_companyId FOREIGN KEY (id)REFERENCES COMPANY(id); [42001-200]
+2021-12-28 22:02:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) NOT NULL UNIQUE, COMPANY_ID INTEGER  NOT NULL, CONSTRAINT FK_COMPANYID FOREIGN KEY (ID)REFERENCES COMPANY(ID);[*]"; expected "INDEX, ON, NOT, DEFERRABLE, NOCHECK, CHECK, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) NOT NULL UNIQUE, company_id INTEGER  NOT NULL, CONSTRAINT fk_companyId FOREIGN KEY (id)REFERENCES COMPANY(id); [42001-200]
+2021-12-28 22:02:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) NOT NULL UNIQUE, COMPANY_ID INTEGER  NOT NULL, CONSTRAINT FK_COMPANYID FOREIGN KEY (ID)REFERENCES COMPANY(ID);[*]"; expected "INDEX, ON, NOT, DEFERRABLE, NOCHECK, CHECK, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) NOT NULL UNIQUE, COMPANY_id INTEGER  NOT NULL, CONSTRAINT fk_companyId FOREIGN KEY (id)REFERENCES COMPANY(id); [42001-200]
+2021-12-28 22:03:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) NOT NULL UNIQUE, COMPANY_ID INTEGER NOT NULL, FOREIGN KEY (COMPANY_ID) REFERENCES COMPANY(ID);[*]"; expected "INDEX, ON, NOT, DEFERRABLE, NOCHECK, CHECK, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) NOT NULL UNIQUE, COMPANY_id INTEGER NOT NULL, FOREIGN KEY (COMPANY_id) REFERENCES COMPANY(id); [42001-200]
+2021-12-28 22:06:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) NOT NULL UNIQUE, COMPANY_ID INTEGER NOT NULL, FOREIGN KEY (COMPANY_ID) REFERENCES COMPANY(ID);[*]"; expected "INDEX, ON, NOT, DEFERRABLE, NOCHECK, CHECK, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) NOT NULL UNIQUE, COMPANY_id INTEGER NOT NULL, FOREIGN KEY (COMPANY_id) REFERENCES COMPANY(id); [42001-200]
+2021-12-28 22:06:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) NOT NULL UNIQUE, COMPANY_ID INTEGER NOT NULL, FOREIGN KEY (COMPANY_ID) REFERENCES COMPANY(ID);[*]"; expected "INDEX, ON, NOT, DEFERRABLE, NOCHECK, CHECK, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CAR (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) NOT NULL UNIQUE, COMPANY_id INTEGER NOT NULL, FOREIGN KEY (COMPANY_id) REFERENCES COMPANY(id); [42001-200]
+2021-12-28 22:07:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT NAMEFROM CARINNER JOIN[*] COMPANYON CAR.COMPANY_ID = COMPANY.IDWHERE COMPANY.NAME='16');"; SQL statement:
+SELECT nameFROM CARINNER JOIN COMPANYON CAR.company_id = COMPANY.idWHERE COMPANY.name='16'); [42000-200]
+2021-12-28 22:14:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT NAMEFROM CARINNER JOIN[*] COMPANYON CAR.COMPANY_ID = COMPANY.IDWHERE COMPANY.NAME='dupa');"; SQL statement:
+SELECT nameFROM CARINNER JOIN COMPANYON CAR.company_id = COMPANY.idWHERE COMPANY.name='dupa'); [42000-200]
+2021-12-28 22:15:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT NAMEFROM CARINNER JOIN[*] COMPANYON CAR.COMPANY_ID = COMPANY.IDWHERE COMPANY.NAME='dupa');"; SQL statement:
+SELECT nameFROM CARINNER JOIN COMPANYON CAR.company_id = COMPANY.idWHERE COMPANY.name='dupa'); [42000-200]
+2021-12-28 22:18:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Ambiguous column name "NAME"; SQL statement:
+SELECT name FROM CAR INNER JOIN COMPANY ON CAR.company_id = COMPANY.id WHERE COMPANY.name='dupa'); [90059-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:576)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.mapColumn(ExpressionColumn.java:129)
+	at org.h2.expression.ExpressionColumn.mapColumns(ExpressionColumn.java:107)
+	at org.h2.command.dml.Select.mapColumns(Select.java:1600)
+	at org.h2.command.dml.Select.init(Select.java:1125)
+	at org.h2.command.Parser.parseQuery(Parser.java:2627)
+	at org.h2.command.Parser.parsePrepared(Parser.java:868)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at carsharing.dao.CompanyManagement.getCarList(CompanyManagement.java:118)
+	at carsharing.App.getCarList(App.java:127)
+	at carsharing.App.displayCompanyMenu(App.java:113)
+	at carsharing.App.getCompaniesList(App.java:82)
+	at carsharing.App.managerMenu(App.java:55)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 22:19:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT CAR.NAME FROM CAR INNER JOIN COMPANY ON CAR.COMPANY_ID = COMPANY.ID WHERE COMPANY.NAME='dupa')[*];"; SQL statement:
+SELECT car.name FROM CAR INNER JOIN COMPANY ON CAR.company_id = COMPANY.id WHERE COMPANY.name='dupa'); [42000-200]
+2021-12-28 22:22:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CAR INNER JOIN COMPANY ON CAR.COMPANY_ID = COMPANY.ID WHERE COMPANY.NAME='dupa')[*];"; SQL statement:
+SELECT * FROM CAR INNER JOIN COMPANY ON CAR.company_id = COMPANY.id WHERE COMPANY.name='dupa'); [42000-200]
+2021-12-28 22:22:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CAR WHERE COMPANY.NAME='dupa')[*];"; SQL statement:
+SELECT * FROM CAR WHERE COMPANY.name='dupa'); [42000-200]
+2021-12-28 22:24:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "COMPANY.NAME" not found; SQL statement:
+SELECT * FROM CAR WHERE COMPANY.name='dupa'; [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:190)
+	at org.h2.command.dml.Select.prepare(Select.java:1209)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at carsharing.dao.CompanyManagement.getCarList(CompanyManagement.java:115)
+	at carsharing.App.getCarList(App.java:127)
+	at carsharing.App.displayCompanyMenu(App.java:113)
+	at carsharing.App.getCompaniesList(App.java:82)
+	at carsharing.App.managerMenu(App.java:55)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 22:25:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "COMPANY.NAME" not found; SQL statement:
+SELECT * FROM CAR WHERE COMPANY.name='hub'; [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:190)
+	at org.h2.command.dml.Select.prepare(Select.java:1209)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at carsharing.dao.CompanyManagement.getCarList(CompanyManagement.java:115)
+	at carsharing.App.getCarList(App.java:127)
+	at carsharing.App.displayCompanyMenu(App.java:113)
+	at carsharing.App.getCompaniesList(App.java:82)
+	at carsharing.App.managerMenu(App.java:55)
+	at carsharing.App.displayMenu(App.java:35)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 22:45:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-28 22:46:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-28 22:47:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-28 22:52:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-28 22:57:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "DUPA" not found; SQL statement:
+SELECT * FROM COMPANY where name=dupa; [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:191)
+	at org.h2.command.dml.Select.prepare(Select.java:1209)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at carsharing.dao.CompanyManagement.getCompanyByName(CompanyManagement.java:156)
+	at carsharing.App.createCar(App.java:136)
+	at carsharing.App.displayCompanyMenu(App.java:117)
+	at carsharing.App.getCompaniesList(App.java:82)
+	at carsharing.App.managerMenu(App.java:56)
+	at carsharing.App.displayMenu(App.java:36)
+	at carsharing.App.start(App.java:23)
+	at carsharing.Main.main(Main.java:6)
+2021-12-28 22:58:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-28 22:59:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-28 23:32:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-28 23:44:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-28 23:46:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-28 23:48:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-28 23:54:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-28 23:55:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2021-12-29 01:16:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CARSHARINGDB" not found; SQL statement:
+ALTER TABLE carsharingDB ALTER COLUMN id RESTART WITH 1 [42102-200]
+2021-12-29 12:53:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CUSTOMER (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, RENTED_CAR_ID INTEGER, FOREIGN KEY (CAR_ID_ REFERENCES[*] CAR(ID));"; expected "ASC, DESC, NULLS, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS customer (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, rented_car_id INTEGER, FOREIGN KEY (car_id_ REFERENCES car(id)); [42001-200]
+2021-12-29 12:54:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CUSTOMER (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, RENTED_CAR_ID INTEGER, FOREIGN KEY (CAR_ID_ REFERENCES[*] CAR(ID)));"; expected "ASC, DESC, NULLS, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS customer (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, rented_car_id INTEGER, FOREIGN KEY (car_id_ REFERENCES car(id))); [42001-200]
+2021-12-29 12:55:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CUSTOMER (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) NOT NULL UNIQUE, RENTED_CAR_ID INTEGER, FOREIGN KEY (CAR_ID) REFERENCES CAR(ID)))[*];"; SQL statement:
+CREATE TABLE IF NOT EXISTS customer (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) NOT NULL UNIQUE, rented_car_id INTEGER, FOREIGN KEY (car_id) REFERENCES car(id))); [42000-200]
+2021-12-29 12:56:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "CAR_ID" not found; SQL statement:
+CREATE TABLE IF NOT EXISTS customer (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) NOT NULL UNIQUE, rented_car_id INTEGER, FOREIGN KEY (car_id) REFERENCES car(id)); [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.table.Table.getColumn(Table.java:703)
+	at org.h2.table.IndexColumn.mapColumns(IndexColumn.java:115)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:216)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.ddl.CommandWithColumns.createConstraints(CommandWithColumns.java:83)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:133)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.CarSharingDB.createDB(CarSharingDB.java:49)
+	at carsharing.App.start(App.java:21)
+	at carsharing.Main.main(Main.java:6)
+2021-12-29 12:58:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "COMPANY.NAME" not found; SQL statement:
+SELECT * FROM CAR WHERE COMPANY.name='ech'; [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:190)
+	at org.h2.command.dml.Select.prepare(Select.java:1209)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:78)
+	at carsharing.dao.CompanyManagement.getCarList(CompanyManagement.java:119)
+	at carsharing.App.getCarList(App.java:191)
+	at carsharing.App.displayCompanyMenu(App.java:179)
+	at carsharing.App.getCompaniesList(App.java:147)
+	at carsharing.App.managerMenu(App.java:117)
+	at carsharing.App.displayMenu(App.java:37)
+	at carsharing.App.start(App.java:22)
+	at carsharing.Main.main(Main.java:6)
+2021-12-29 13:04:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CUSTOMER INNER JOIN CAR +[*]ON CUSTOMER.RENTED_CAR_ID = CAR.ID "; SQL statement:
+SELECT * FROM customer INNER JOIN car +ON customer.rented_car_id = car.id  [42000-200]
